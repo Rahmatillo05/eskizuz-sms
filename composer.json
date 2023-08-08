@@ -1,0 +1,17 @@
+{
+    "name": "rahmatullo/eskiz-sms",
+    "autoload": {
+        "psr-4": {
+            "rahmatullo\\eskizsms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahmatillo05",
+            "email": "hrrahmatillo2oo5@gmail.com"
+        }
+    ],
+    "require": {
+        "php-curl-class/php-curl-class": "^9.17"
+    }
+}
