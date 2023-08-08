@@ -96,13 +96,13 @@ class Eskiz
         return $this->client->post($action, compact('start_date', 'end_date'));
     }
 
-    public function getMessageStatus(string $message_id)
+    public function getMessageStatus(string $dispatch_id)
     {
         $action = $this->createUrl('message/sms/get-dispatch-status');
 
         return $this->client->post($action, [
             'user_id' => $this->user_id,
-            'dispatch_id' => $message_id
+            'dispatch_id' => $dispatch_id
         ]);
     }
 
