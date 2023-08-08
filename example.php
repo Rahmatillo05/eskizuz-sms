@@ -5,7 +5,7 @@ use rahmatullo\eskizsms\Eskiz;
 
 require "vendor/autoload.php";
 
-$eskiz = new Eskiz("hrrahmatillo2oo5@gmail.com", "RfHUBE87ZnDLSBcFMBr48GJoNQkDeOC6gt5sEEYq");
+$eskiz = new Eskiz("your_email@mail.com", "your_password");
 
 $options = [
     'messages' => [
@@ -27,7 +27,6 @@ $options2 = [
     'message' => 'Your message',
     'from ' => 'Your nickname | Default 4546'
 ];
-
 
 ?>
 </pre>
