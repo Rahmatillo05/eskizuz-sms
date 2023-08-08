@@ -1,5 +1,6 @@
 {
     "name": "rahmatullo/eskiz-sms",
+    "license": ["MIT"],
     "autoload": {
         "psr-4": {
             "rahmatullo\\eskizsms\\": "src/"
